@@ -1,7 +1,22 @@
-# Air Canvas Pro v3.0 — Requirements
-# Install: pip install -r requirements.txt
-# Python 3.9 – 3.12 | macOS/Windows/Linux | Webcam required
+# ╔══════════════════════════════════════════════════════╗
+# ║   Smart Air Whiteboard v4.0 — Teacher Edition       ║
+# ╚══════════════════════════════════════════════════════╝
+#
+# INSTALL:
+#   pip install -r requirements.txt
+#
+# ALSO install Tesseract OCR engine (for handwriting recognition):
+#   macOS:   brew install tesseract
+#   Ubuntu:  sudo apt install tesseract-ocr
+#   Windows: https://github.com/UB-Mannheim/tesseract/wiki
+#
+# Python 3.9 – 3.12  |  Webcam required
 
+# Core
 opencv-python>=4.8.0
 mediapipe>=0.10.0,<=0.10.31
 numpy>=1.24.0,<2.0
+
+# OCR handwriting recognition
+pytesseract>=0.3.10
+Pillow>=9.0.0
