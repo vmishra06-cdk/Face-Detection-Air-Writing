@@ -1,5 +1,1 @@
-opencv-python>=4.8.0
-mediapipe>=0.10.0,<=0.10.31
-numpy>=1.24.0,<2.0
-pytesseract>=0.3.10
-Pillow>=9.0.0
+{"type":"error","error":{"type":"not_found_error","message":"File not found in container: /mnt/user-data/outputs/requirements.txt","details":{"error_visibility":"user_facing"}},"request_id":"req_011CZmExfxotf1BakvX4XDzD"}
