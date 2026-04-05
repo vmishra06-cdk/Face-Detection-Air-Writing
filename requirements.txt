@@ -1,18 +1,7 @@
-# ╔══════════════════════════════════════════╗
-# ║   Air Canvas Pro v3.0 — Requirements    ║
-# ╚══════════════════════════════════════════╝
-#
-# Install with:
-#   pip install -r requirements.txt
-#
-# Python 3.9 – 3.11 recommended
-# Webcam required (USB or built-in)
+# Air Canvas Pro v3.0 — Requirements
+# Install: pip install -r requirements.txt
+# Python 3.9 – 3.12 | macOS/Windows/Linux | Webcam required
 
-# Core vision
 opencv-python>=4.8.0
-
-# Hand + Face tracking
-mediapipe>=0.10.0
-
-# Numerical / array ops (usually already present)
-numpy>=1.24.0
+mediapipe>=0.10.0,<=0.10.31
+numpy>=1.24.0,<2.0
