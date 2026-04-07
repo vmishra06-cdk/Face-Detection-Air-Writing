@@ -96,7 +96,7 @@ POINTER_RADIUS  = 18
 # ══════════════════════════════════════════════
 THEME_WHITEBOARD = {
     "name":       "WHITEBOARD",
-    "bg":         (240, 240, 235),   # off-white
+    "bg":         (250, 250, 235),   # off-white
     "grid":       (220, 220, 215),
     "hud_bg":     (255, 255, 255),
     "hud_text":   (30,  30,  30),
